@@ -1,15 +1,14 @@
 # cchd
 An example of a Climate Change Hazard Dashboard (CCHD).
 
-## Introduction
+## IMPORTANT!
+The point of this repo is to show **how to make a dashboard**. 
 
-Climate change will, as the name suggests, alter the earth's climate. This will bring associated risks from it, some of which are primary risks (increased global average temperatures), and others of which are secondary risks (it might be harder to grow Arabica coffee).
-
-These risks will have impacts on people, such as the more serious heat stress from increased global average temperatures, or the more flippant coffee stress from not being able to get your hands on Arabica coffee as easily. One way to explore these risks is via a dashboard.
+No scientific rigour has been undertaken in preparing the data shown on the dashboard beyond the analytical and statistical techniques included in the repo's code. No further inference should be made from the contents of the dashboard beyond the fact that such a dashboard may be constructed.
 
 ## Dashboard
 
-This repo demonstrates an approach for producing a dashboard that makes it easier for users to explore the impacts of climate change.
+This repo demonstrates an approach for producing a dashboard that makes it easier for users to explore some data. In this case, the dashboard allows us to explore the impacts of climate change on temperatures in the US.
 
 ### What's shown
 
@@ -19,11 +18,9 @@ On top of this, data is synthesized to demonstrate the concepts of vulnerability
 
 This synthesized data is of no value beyond demonstrating the art of the possible.
 
-**IMPORTANT**: the point of this repo is to show **how to make the dashboard**. No scientific rigour has been undertaken in preparing the data demonstrated on the dashboard beyond the analytical and statistical techniques included in the repo's code. No further inference should be made from the contents of the dashboard beyond the fact that such a dashboard may be constructed.
-
 ### Technologies used
 
-There are a variety of different Python dashboarding technologies available. For the sake of choosing one, this dashboard makes use of [Holoviz](https://holoviz.org/index.html) technologies, particularly:
+There are a variety of different Python dashboarding technologies available. For the sake of making a choice, this dashboard makes use of [Holoviz](https://holoviz.org/index.html) technologies, particularly:
 
 * [Panel](https://panel.pyviz.org/) (for making the dashboard app)
 * [hvPlot](https://hvplot.pyviz.org/) (for making the plots shown on the dashboard)
