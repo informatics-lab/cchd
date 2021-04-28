@@ -50,3 +50,10 @@ $ conda create -n cchd -c conda-forge python
 $ conda activate cchd
 $ conda install -c conda-forge panel hvplot geoviews colorcet pandas geopandas
 ```
+
+Note: the realtime dashboard uses files from the [Iris sample data repository](https://github.com/SciTools/iris-sample-data) directly, rather than pre-processing the same data. This adds an extra dependency:
+
+```bash
+$ conda activate cchd
+$ conda install -c conda-forge iris-sample-data
+```
