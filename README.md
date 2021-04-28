@@ -48,5 +48,5 @@ Note that your local Python environment will need to provide at least the requir
 ```bash
 $ conda create -n cchd -c conda-forge python
 $ conda activate cchd
-$ conda install -c conda-forge panel hvplot colorcet pandas geopandas
+$ conda install -c conda-forge panel hvplot geoviews colorcet pandas geopandas
 ```
